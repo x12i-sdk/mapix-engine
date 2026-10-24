@@ -1,0 +1,22 @@
+{
+  "name": "mapix-engine-usage",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Usage example for @x12i/mapix-engine: check a caller source grant before starting a mapping workflow.",
+  "type": "module",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "start": "node src/index.mjs",
+    "check": "node --check src/index.mjs"
+  },
+  "dependencies": {
+    "@x12i/mapix-engine": "1.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/x12i-sdk/mapix-engine.git"
+  },
+  "homepage": "https://www.npmjs.com/package/@x12i/mapix-engine"
+}

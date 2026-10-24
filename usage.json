@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "package": "@x12i/mapix-engine",
+  "packageVersion": "1.0.0",
+  "npmUrl": "https://www.npmjs.com/package/@x12i/mapix-engine",
+  "usageRepository": "https://github.com/x12i-sdk/mapix-engine",
+  "sourceRepository": "https://github.com/x12i/mapix",
+  "sourceCommit": "050d49774c2e81b3ec9daba4fb4cf6869179e5f1",
+  "sourcePackageDirectory": "packages/engine",
+  "example": {
+    "title": "Check a caller source grant before starting a mapping workflow",
+    "entrypoint": "src/index.mjs",
+    "command": "npm start",
+    "requiresCredentials": false,
+    "validation": "passed",
+    "validatedAt": "2026-10-24T14:28:43.798398+00:00",
+    "isolatedInstallation": true,
+    "sourceSha256": "7770122cef27d047a84574171e5c13bcf7f4526d03ab002ba1d3e7cb2ab7e10f",
+    "manifestSha256": "de6eb83731a12b9a329cd4fede57ca782dfba882af96013ada1e61167d99dc85"
+  },
+  "validationFiles": {
+    "src/index.mjs": "7770122cef27d047a84574171e5c13bcf7f4526d03ab002ba1d3e7cb2ab7e10f"
+  }
+}
